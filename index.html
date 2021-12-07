@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Paul's Resume</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/components.css">
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+</head>
+<body>
+	<div class="wrapper">
+		<!-- start bg -->
+		<div class="bg"></div>
+		<!-- end bg -->
+
+		<!-- start header -->
+		<header class="header js-header">
+			<div class="container">
+				<div class="navbar navbar--collapse u-clearfix">
+					<div class="social-bar navbar__social-bar">
+						<a href="https://www.linkedin.com/in/li-yu-wang/" target="_blank" class="icon-btn">
+							<i class="icon icon-linkedin-squared"></i>
+						</a>
+						<!-- <a href="#" class="icon-btn">
+							<i class="icon icon-dribbble"></i>
+						</a>
+						<a href="#" class="icon-btn">
+							<i class="icon icon-behance"></i>
+						</a> -->
+					</div>
+					<div class="nav navbar__nav">
+						<a href="#popup-overlay" class="menu-toggle">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+						<div id="popup-overlay" class="popup-menu">
+							<div class="container">
+								<div class="u-clearfix">
+									<a href="#" class="popup-menu__close">
+										<span></span>
+										<span></span>
+									</a>
+								</div>
+								<ul>
+									<li><a href="#about" class="popup-menu__item">ABOUT</a></li>
+									<li><a href="#skill" class="popup-menu__item">SKILLS</a></li>
+									<li><a href="#experience" class="popup-menu__item">EXPERIENCE</a></li>
+									<li><a href="#work" class="popup-menu__item">MY WORK</a></li>
+									<li><a href="#contact" class="popup-menu__item">CONTACT</a></li>
+								</ul>
+								
+							</div>
+								
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- end header -->
+
+		<!-- start main -->
+		<section class="main">
+			<!-- start about -->
+			<div id="about" class="hero">
+				<img class="graphic_001 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-blue.svg" alt="">
+				<img class="graphic_002" data-stellar-ratio="1.5"  src="images/parallax_graphic/cir-pink-sm.svg" alt="">
+				<div class="hero__bg"></div>
+				<div class="container">
+					<div class="hero__content wow bounceInLeft">
+						<h1 class="hero__heading">HELLO<br>I'M PAUL</h1>
+						<a href="#contact" class="btn btn--primary btn--md">Contact</a>
+					</div>
+				</div>
+			</div>
+			<!-- end about -->
+
+			<!-- Start quote -->
+			<div id="quote" class="quote bg-color-white">
+				<img class="graphic_003 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-purple.svg" alt="">
+				<img class="graphic_004 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-blue.svg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-sm-push-3">
+							<div class="quote__content">
+								<div class="quote__icon">
+									<i class="icon-quote-right"></i>
+								</div>
+								<p class="quote__text">Except for the information technology, also contact with other different fields in coincidence to become the magical IT person(rat brainwave research, 3D architectural models(BIM), FinTech patents, financial product research, international trade).</p>
+								<div class="quote__name"><span>Paul Wang- </span>come from Taiwan</div>
+							</div>
+						</div>
+					</div>			
+				</div>
+			</div>
+			<!-- End quote -->
+
+			<!-- Start skill -->
+			<div id="skill" class="skill bg-color-white lean-bg--bottom">
+				<img class="graphic_005" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-md.svg" alt="">
+				<img class="graphic_006" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+				<div class="container">
+					<h2 class="subtitle u-text-center wow bounceInUp">SKILLS</h2>
+					<div class="skill-group">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">Data Science</h4>
+										<p class="skill-card__text">Data dimension reduction, Preference tag confidence interval verification, Data visualization, Various types of models( Marketing association rules, Strong social network association, Predicting good ad click objects ).</p>
+									</div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/data_science-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="0.5s">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">Web Crawler</h4>
+										<p class="skill-card__text">Implement web crawler code and crawl the online information( Patent information of ministry of economics, Firm information of ministry of economics, App Annie, International trade center).</p>
+									</div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/crawler-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>	
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="1s">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">Data ETL</h4>
+										<p class="skill-card__text">Preprocess and calculation of big data, and use airflow to develop automated scheduling procedures. ( Address data clean, Multi-value data processing, Calculation on the single customer view)</p>
+									</div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/etl-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="1.25s">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">Front-end Development</h4>
+										<p class="skill-card__text">Modifying the front-end page template and using the asynchronous transfer method (AJAX) to communicate with the API to achieve dynamic rendering of the web page.</p>
+									</div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/frontend-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="1.5s">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">Back-end Development</h4>
+										<p class="skill-card__text">Develop and design the back-end API architecture of the entire system with Flask and connect the front-end web pages with database.</p>
+									</div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/api-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="1.75s">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">Cloud Computing Environment Setting</h4>
+										<p class="skill-card__text">Deploy the customer data platform (CDP) in the Linux environment of Google Cloud Platform and set up a connection with Cloud SQL.</p>
+									</div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/cloud-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="2s">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">System Product Designing</h4>
+										<p class="skill-card__text">
+											System products which I used to be in charge of :
+											<ol>
+												<li style="margin-bottom: 20px; line-height: 20px;">
+													Graduation Project - Spike Sorting System
+												</li>
+												<li style="margin-bottom: 20px; line-height: 20px;">
+													Thesis - Development on Construction company questionnaire data mining system
+												</li>
+												<li style="margin-bottom: 20px; line-height: 20px;">
+													Digital Report - Ad prediction click model
+												</li>
+												<li style="margin-bottom: 20px; line-height: 20px;">
+													Customer Data Platform (CDP) for Group Customers
+												</li>
+												<li style="margin-bottom: 20px; line-height: 20px;">
+													Caring Conditions Model for Group Customers
+												</li>
+												<li style="margin-bottom: 20px; line-height: 20px;">
+													Independent Research - Company strong association automatic clustering
+												</li>
+												<li style="margin-bottom: 20px; line-height: 20px;">
+													Independent Research - Potential App List Filtering System
+												</li>
+											</ol>
+											<!-- <ol>
+												<li style="margin-bottom: 20px; line-height: 20px;">
+													利用資料將維方法將老鼠的腦波資料進行特徵選取降至2或3維後，再經群集方法分群，並以圖形方式呈現，方便使用者直觀理解。
+												</li>
+												<li style="margin-bottom: 20px; line-height: 20px;">
+													與遠雄集團合作，對購屋者的資料訊息進行分析，並將分析流程與方法包裝成系統，使非資料科學背景之使用者也能進行該分析。
+												</li>
+												<li style="margin-bottom: 20px; line-height: 20px;">
+													設計Potential App名單篩選系統，定義篩選考量，找出有潛力且後勢看漲的App，產出每日更新(自動新增、刪除)的Potential App名單。
+												</li>
+												<li style="margin-bottom: 20px; line-height: 20px;">
+													利用以資料結構強聯通元件為概念所實作的社會網路演算法，依各公司的連結定義，將關係相近的公司自動群集。
+												</li>
+											</ol> -->
+										</p>
+									</div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/sys_design-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="2.25s">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">Patent Flow Chart Designing</h4>
+										<p class="skill-card__text">
+											FinTech patent applying, embedding appropriate data analysis module, drawing patent process and system architecture diagram. Patents that I have participated in:
+											<ol>
+												<li style="margin-bottom: 10px; line-height: 20px;">I649706 VERIFICATION METHOD OF TRADING PLATFORM AND TRADING PLATFORM SERVICE</li>
+												<li style="margin-bottom: 10px; line-height: 20px;">M535362 LOAN MATCHING SYSTEM</li>
+												<li style="margin-bottom: 10px; line-height: 20px;">M561861 INTERNET PAYMENT MONEY TRANSFER SYSTEM</li>
+												<li style="margin-bottom: 10px; line-height: 20px;">M526136 ASSET TRANSFER SYSTEM</li>
+												<li style="margin-bottom: 10px; line-height: 20px;">M548840 ELECTRONIC PAYMENT SYSTEM</li>
+												<li style="margin-bottom: 10px; line-height: 20px;">M549930 FINANCIAL PRODUCT TRADING SYSTEM</li>
+												<li style="margin-bottom: 10px; line-height: 20px;">I635453 POINT-TO-POINT FINANCIAL PRODUCT TRADING METHOD</li>
+											</ol>
+										</p>
+										<p class="skill-card__text">
+											Self-developed and possessed patents：
+											<ol>
+												<li style="margin-bottom: 10px; line-height: 20px;">I720663 ANALYSIS SYSTEM AND METHOD OF MULTIPLE REGION
+TRADE</li>
+											</ol>
+										</p>
+									</div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/patent-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End skill -->
+
+			<!-- Start experience -->
+			<div id="experience" class="experience">
+				<img class="graphic_007 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-purple-lg.svg" alt="">
+				<img class="graphic_008" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+				<img class="graphic_009" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-sm.svg" alt="">
+				<img class="graphic_010 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-blue.svg" alt="">
+				<div class="container">
+					<h2 class="subtitle u-text-center color-white wow bounceInUp">EXPERIENCE</h2>
+					<div class="timeline-group">
+						<div class="timeline"></div>
+						<div class="timeline-cards">
+							<div class="timeline-cards__row">
+								<div class="timeline-card wow bounceInUp">
+									<h4><u>Website development on the appliance of the patent "Multi-Regional Trade Analysis System and Method"</u>- Data Application Development Engineer<br>(2021.6 - Now)</h4>
+									<ol>
+										<li style="margin-bottom: 10px; line-height: 20px;">Design all functions, and write the text content of each page in the website.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Develop data crawlers required for the functions of each page of the website. (Large futures data websites in various countries.)</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Use amcharts 4 to develop data visualization programs for each page function of the website.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Use airflow to develop automated scheduling programs on crawlers and model calculations. (Including training machine learning.)</li>
+									</ol>
+								</div>
+							</div>
+							<div class="timeline-cards__row">
+								<div class="timeline-card wow bounceInUp">
+									<h4><u>Freelancer ＆ AI international trade algorithm model development</u>- Algorithm Developer<br>(2019.9 - Now)</h4>
+									<ol>
+										<li style="margin-bottom: 10px; line-height: 20px;">After economic factor analysis (trade volume, distance, tariff, culture) and clustering methods, I have developed an international trade economic model that uses social network algorithms and combines AI technology.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Based on the country and industry dimensions, establish trade relations between countries, use amcharts 4 to implement data visualization, and implement world industrial trade relations maps.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Design and implement an industry report automatic generator, just fill in the Harmonized System Code (HS-CODE), you can quickly create an industry report, allowing experts to get accurate and instant decision support.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Using crawlers to help consulting companies find information of firm lists, and provide information and recommendations for specific industry market entry.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">The Invention patent No. I720663 "Multi-Regional Trade Analysis System and Method" has been examined and approved.</li>
+									</ol>
+								</div>
+							</div>
+							<div class="timeline-cards__row">
+								<div class="timeline-card wow bounceInUp">
+									<h4><u>Sinyi Realty Inc.</u> - Data Engineer <br>(2018.8 - 2019.8)</h4>
+									<ol>
+										<li style="margin-bottom: 10px; line-height: 20px;">Calculate the group's service coverage and overlap rate to understand the current service status, and to explore and integrate data content and verify logical planning.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Model the online digital behavior using machine learning methods and use the A/B Test method to evaluate whether the model recommendations have significant results.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Establish the customer data platform (CDP) for group customers. Through collecting the common key values collected by the group, different services can be integrated and the established tags can be accumulated on the same user.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Design method flow and implementation, select the user's preference label from the broad area and then use the confidence interval method for secondary verification.</li>
+									</ol>
+								</div>
+							</div>
+							<div class="timeline-cards__row">
+								<div class="timeline-card wow bounceInUp">
+									<h4><u>PChome Online Inc.</u> - Data Analyst<br>(2016.11 - 2018.8)</h4>
+									<ol>
+										<li style="margin-bottom: 10px; line-height: 20px;">Various patent development applications, embedding appropriate data analysis modules and drawing patent processes and system architecture diagrams.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Collecting, analyzing, and writing research reports on financial products, stock ratings, and stock trading systems.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Develop the risk control model which is referring to the bank's field items, use the research data to build a first version of the Logistic Regression model, and rate the customer to determine the loan interest rate and the maximum amount of lending.</li>
+									</ol>
+								</div>
+							</div>
+							<div class="timeline-cards__row">
+								<div class="timeline-card wow bounceInUp">
+									<h4><u>Eco-City: the health LohaoCity wisdom Living Science and Technology Regional Integration Center.</u> - Research Assistant<br>(2013.6 - 2014.9)</h4>
+									<ol>
+										<li style="margin-bottom: 10px; line-height: 20px;">Collaborate with the <u>Farglory</u> Group to explore the application of data mining in different fields (civil engineering, smart buildings).</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Write research proposals, conduct program design and development, organize and report on research progress, and prepare research results reports.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Using association analysis, the data information of the purchaser is based on R software for data exploration, analyzing the association rules and trends, and providing decision suggestions for managers.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">The analysis process and method are packaged into a system that enables users of non-data science backgrounds to perform the analysis.</li>
+										<li style="margin-bottom: 10px; line-height: 20px;">Honorable Mention / The 18th Construction Engineering and Management Symposium, Taiwan - Research on the Construction Company's Questionnaire Data Mining System.</li>
+									</ol>
+									
+								</div>
+							</div>
+							<!-- <div class="timeline-cards__row">
+								<div class="timeline-card wow bounceInUp">
+									<p class="timeline-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius tempora aliquid, ab totam quidem voluptate molestiae. Ex distinctio illo perferendis.</p>
+								</div>
+							</div>
+							<div class="timeline-cards__row">
+								<div class="timeline-card wow bounceInUp">
+									<p class="timeline-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius tempora aliquid, ab totam quidem voluptate molestiae. Ex distinctio illo perferendis.</p>
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End experience -->
+
+			<!-- Start work -->
+			<div id="work" class="work bg-color-white lean-bg--top">
+				<img class="graphic_011" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-lg.svg" alt="">
+				<img class="graphic_012" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+				<img class="graphic_013" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-blue.svg" alt="">
+				<img class="graphic_014 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-purple-md.svg" alt="">
+				<img class="graphic_015" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+				<img class="graphic_016" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-md.svg" alt="">
+				<img class="graphic_017" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-blue.svg" alt="">
+				<img class="graphic_018" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-sm.svg" alt="">
+				<img class="graphic_019" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-purple.svg" alt="">
+				<img class="graphic_add_01" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-md.svg" alt="">
+				<img class="graphic_add_02 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-purple-md.svg" alt="">
+				<img class="graphic_add_03" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-purple.svg" alt="">
+				<img class="graphic_add_04" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+				<div class="container">
+					<h2 class="subtitle u-text-center wow bounceInUp">MY WORK</h2>
+					<div class="work-list">
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-6">
+									<div class="imgbox">
+										<!-- <a href="images/works/work_p01.png" data-fancybox="group"> -->
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/work_p01.png');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-pull-5">
+									<div class="work-item__text">
+										<h3 class="work-item__title work-item__title--right">Graduation Project-<br>Spike Sorting System</h3>
+										<p class="work-item__intro">
+											&nbsp&nbsp&nbsp&nbsp The main function of this graduation project is to analyze a large number of spike data and separate different clusters. Using the data dimension reduction method, the brain waves data of mouses are reduced to 2 or 3 dimensions and then clustered by the cluster method. Also, use the data to achieve data visualization. So that users without information background can fully apply the data exploration method to fulfill the function of spike analysis.
+										</p>
+										<!-- <a href="#" class="text-btn text-btn--primary text-btn--lg">Show project</a> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="imgbox">
+										<!-- <a href="images/works/work_p02.png" data-fancybox="group"> -->
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/work_p02.png');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-push-1">
+									<div class="work-item__text">
+										<h3 class="work-item__title ">Thesis-<br>Development on Construction company questionnaire data mining system</h3>
+										<p class="work-item__intro">
+											&nbsp&nbsp&nbsp&nbsp Adopting association analysis, using R software for data exploration of home buyers, analyzing association rules and trends, providing decision-making suggestions for managers, and packaging analysis processes and methods into systems to enables users of non-data science backgrounds to perform the analysis.</p>
+										<!-- <a href="#" class="text-btn text-btn--primary text-btn--lg">Show project</a> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-6">
+									<div class="imgbox">
+										<!-- <a href="images/works/work003.jpg" data-fancybox="group"> -->
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/work_p03.png');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-pull-5">
+									<div class="work-item__text">
+										<h3 class="work-item__title work-item__title--right">Digital Report-<br>Ad prediction click model</h3>
+										<p class="work-item__intro">
+											&nbsp&nbsp&nbsp&nbsp In order to recommend suitable houses to customers, use the historical information collected by the company's Internet users to create a model that can predict the number of viewing about houses ad (this project uses machine learning), and rank the scores and recommend the highest score to users. The house ads are expected to be of interest to the user.</p>
+										<!-- <a href="#" class="text-btn text-btn--primary text-btn--lg">Show project</a> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="imgbox">
+										<!-- <a href="images/works/work004.jpg" data-fancybox="group"> -->
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/work_p04.png');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-push-1">
+									<div class="work-item__text">
+										<h3 class="work-item__title">Customer Data Platform (CDP) for Group Customers</h3>
+										<p class="work-item__intro">
+											&nbsp&nbsp&nbsp&nbsp Calculate the tags according to the screening rules by discussing with the supervisor-level business, and through the common group ID, you can aggregate the different services and accumulate the established tags on the same user, and then design and develop the back-end API architecture of the entire system, and modify the front-end page template and communicate with the API in AJAX transfer mode.</p>
+										<!-- <a href="#" class="text-btn text-btn--primary text-btn--lg">Show project</a> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-6">
+									<div class="imgbox">
+										<!-- <a href="images/works/work005.jpg" data-fancybox="group"> -->
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/work_p05.png');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-pull-5">
+									<div class="work-item__text">
+										<h3 class="work-item__title work-item__title--right">Caring Conditions Model for Group Customers</h3>
+										<p class="work-item__intro">
+											&nbsp&nbsp&nbsp&nbsp Design method flow and implementation, in order to find the characteristics of the houses preferred by different customers, use the online data of the website of the customer, the search behavior of the app, and the actual business of the offline showing houses records to build the model for finding the customer's preference label( ex: near the park, with a balcony), and then verify by the confidence interval method.</p>
+										<!-- <a href="#" class="text-btn text-btn--primary text-btn--lg">Show project</a> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="imgbox">
+										<!-- <a href="images/works/work004.jpg" data-fancybox="group"> -->
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/work_add_p01.png');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-push-1">
+									<div class="work-item__text">
+										<h3 class="work-item__title">Independent Research-<br>Company strong association automatic clustering</h3>
+										<p class="work-item__intro">
+											&nbsp&nbsp&nbsp&nbsp Write a crawler program, crawl the company's relevant government public information, and use the social network algorithm implement by the concept of data structure - strong connected components, according to the company's link definition, automatically cluster similar companies and produce data, and then base on this data implementing data visualization by D3.js.</p>
+										<a href="https://rxfa5mq4xvyh1n3uwxpaxa-on.drv.tw/www/Firm_Grouping/" target="_blank" class="text-btn text-btn--primary text-btn--lg">Demo Click</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-6">
+									<div class="imgbox">
+										<!-- <a href="images/works/work005.jpg" data-fancybox="group"> -->
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/work_add_p02.png');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-pull-5">
+									<div class="work-item__text">
+										<h3 class="work-item__title work-item__title--right">Independent Research-<br>Potential App List Filtering System</h3>
+										<p class="work-item__intro">
+											&nbsp&nbsp&nbsp&nbsp Write Web crawlers, crawl the App leaderboard daily, and define the main screening considerations; mainly based on the rankings of the leaderboards (because Apple and Google have considered many factors when defining the App leaderboard rules), and then introduce the ranking gap, join the time of the app to stay on the list and the time of change of the ranks, etc. to find out the potential and the bullish app, and output the list of the Potential App that is updated daily (automatically added, deleted).</p>
+										<!-- <a href="#" class="text-btn text-btn--primary text-btn--lg">Show project</a> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="imgbox">
+										<!-- <a href="images/works/work004.jpg" data-fancybox="group"> -->
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/work_add_p03.png');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-push-1">
+									<div class="work-item__text">
+										<h3 class="work-item__title">Independent Research-<br>International Trade Online Analysis System</h3>
+										<p class="work-item__intro">
+											&nbsp&nbsp&nbsp&nbspUsing social network algorithms, economic factor analysis (trade volume, distance, tariff, culture), and AI technology to establish trade links between countries based on the dimensions of countries and industries, and assist experts who have the need for cross-border trade analysis. To help users be a more comprehensive, more accurate, and more efficient depiction of individual trade profiles, and quickly to obtain real-time industrial trade analysis information.</p>
+										<a href="https://quirky-blackwell-377733.netlify.app/#/charts" target="_blank" class="text-btn text-btn--primary text-btn--lg">Demo Click (The 1st time will take longer)</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-6">
+									<div class="imgbox">
+										<!-- <a href="images/works/work005.jpg" data-fancybox="group"> -->
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/work_add_p04.png');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-pull-5">
+									<div class="work-item__text">
+										<h3 class="work-item__title work-item__title--right">Independent Research-<br>Industry Report Automatic Generator</h3>
+										<p class="work-item__intro">
+											&nbsp&nbsp&nbsp&nbspTo design and implement an industry report automatic generator, simply fill in the Harmonized System Code (HS-CODE), select the industry to display import or export information, and finally, according to the conditions selected by the user, you can quickly create an industry report. Download directly, allowing experts to get accurate and instant decision support.</p>
+										<a href="https://pensive-jackson-b0da70.netlify.app/" target="_blank" class="text-btn text-btn--primary text-btn--lg">Demo Click (The 1st time will take longer)</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-6">
+									<div class="imgbox">
+										<!-- <a href="images/works/work005.jpg" data-fancybox="group"> -->
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/work_add_p05.png');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-pull-5">
+									<div class="work-item__text">
+										<h3 class="work-item__title work-item__title--right">Commodity Futures Customs Data Analysis System</h3>
+										<p class="work-item__intro">
+											&nbsp&nbsp&nbsp&nbspAnalyzing commodity futures with customs data is a new type of analysis method that combines data science and customs data to the commodity futures analysis tool, which integrates the most important commodity futures data (ex: crude oil, wheat, gold... .), the main function is to quickly find out the country market for potential futures price changes. The data sources are from UN, ITC, WTO, and other large third-party units. Combining factors such as trade volume, distance, GDP, tariffs, and other factors for analysis and social network intelligent algorithm processing.</p>
+										<a href="https://futures-trick.herokuapp.com/" target="_blank" class="text-btn text-btn--primary text-btn--lg">Demo Click (The 1st time will take longer)</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="btn-group btn-group--center">
+						<a href="#" class="btn btn--secondary btn--md wow bounceIn">More works</a>
+					</div> -->
+				</div>
+			</div>
+			<!-- End work -->
+
+			<!-- Start contact -->
+			<div id="contact" class="contact">
+				<img class="graphic_020" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+				<img class="graphic_021" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-sm.svg" alt="">
+				<img class="graphic_022" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-blue.svg" alt="">
+				<img class="graphic_023 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-blue.svg" alt="">
+				<img class="graphic_024" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-purple-md.svg" alt="">
+				<div class="container">
+					<h2 class="subtitle u-text-center color-white wow bounceInUp">CONTACT</h2>
+					<!-- <form action="" class="form wow fadeInUp">
+						<label for="">Name</label>
+						<input type="text">
+						<div class="row">
+							<div class="col-sm-6">
+								<label for="">Phone</label>
+								<input type="tel">
+							</div>
+							<div class="col-sm-6">
+								<label for="">Email</label>
+								<input type="email">
+							</div>
+						</div>
+						<label for="">Message</label>
+						<textarea name="" id="" cols="30" rows="10"></textarea>
+						<div class="btn-group btn-group--center form__btn-group">
+							<input type="submit" class="btn btn--primary btn--md" value="Send">
+						</div>
+					</form> -->
+					<div class="divide-text wow fadeIn">Welcome to contact me via the following information ~ ：） </div>
+					<div class="info">
+						<div class="info__email wow bounceInUp">
+							<a href="mailTo:haha123@gmail.com"><i class="icon-btn icon icon-mail-alt"></i> paul_51112@hotmail.com</a>
+						</div>
+						<div class="info__phone wow bounceInUp">
+							<a href="tel:+886926359277"><i class="icon-btn icon icon-phone"></i> （+886）926-359-277</a>
+						</div>
+						<a href="https://drive.google.com/file/d/14xGq1Wj9kk9kAmD7uKg8yNo1hInyW8hc/view?usp=sharing"  target="_blank" class="btn btn--primary btn--sm  wow bounceInUp" style="margin-bottom: 20px;">Download Resume</a>
+						<div class="social-bar info__social-bar">
+							<a href="https://www.linkedin.com/in/li-yu-wang/" target="_blank" class="icon-btn wow bounceIn" data-wow-delay="0.3s">
+								<i class="icon icon-linkedin-squared"></i>
+							</a>
+							<!-- <a href="#" class="icon-btn wow bounceIn" data-wow-delay="0.6s">
+								<i class="icon icon-dribbble"></i>
+							</a>
+							<a href="#" class="icon-btn wow bounceIn" data-wow-delay="0.9s">
+								<i class="icon icon-facebook-official"></i>
+							</a> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End contact -->
+		</section>
+		<!-- end main -->
+
+		<!-- Start footer -->
+		<footer class="footer">
+			<div class="container">
+				<!--<p class="final-text">告訴你的心，害怕比起傷害本身更糟，當我真心在追尋著我的夢想時，每一天都是繽紛的，因為我知道每一個小時都是在實現夢想的一部分，而且沒有一顆心會因為追求夢想而受傷，因為追尋過程中的每一片刻，都是和神與永恆的邂逅。</p>-->
+				<!-- <p class="final-text">當你真心渴望某樣東西時，整個宇宙都會聯合起來幫助你實現。</p> -->
+				<p class="final-text">When you want something, all the universe conspires in helping you to achieve it.</p>
+				<p class="copyright">The Alchemist - Paulo Coelho</p>
+			</div>
+		</footer>
+		<!-- End footer -->
+	</div>
+	<!-- JS -->
+	<script src="js/jquery-2.0.2.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>
